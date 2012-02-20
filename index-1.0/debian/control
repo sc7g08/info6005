@@ -1,0 +1,16 @@
+Source: index
+Section: net
+Priority: extra
+Maintainer: Stelios Christoforou <ste89lios@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Homepage: https://forge.ecs.soton.ac.uk/projects/info6005sc7g08/
+#Vcs-Git: git://git.debian.org/collab-maint/index.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/index.git;a=summary
+
+Package: index
+Architecture: any
+Depends: libapache2-mod-php5, php5-cli
+Description: PHP RSS READER INFO6005
+ Command line application which is a simple rss reader
+ written in PHP

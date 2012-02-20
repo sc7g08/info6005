@@ -1,0 +1,12 @@
+Package: index
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Stelios Christoforou <ste89lios@gmail.com>
+Installed-Size: 44
+Depends: libapache2-mod-php5, php5-cli
+Section: net
+Priority: extra
+Homepage: https://forge.ecs.soton.ac.uk/projects/info6005sc7g08/
+Description: PHP RSS READER INFO6005
+ Command line application which is a simple rss reader
+ written in PHP
