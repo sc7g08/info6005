@@ -20,7 +20,7 @@ set -e
 case "$1" in
     remove|deconfigure)
     	a2dissite cw1sc7g08 > /dev/null >&2
-	/etc/init.d/apache2 reload
+	invoke-rc.d apache2 reload
     ;;
 
     failed-upgrade)

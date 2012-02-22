@@ -21,7 +21,7 @@ set -e
 case "$1" in
     configure)
 	a2ensite cw1sc7g08
-	/etc/init.d/apache2 reload
+	invoke-rc.d apache2 reload
 	echo '--------CW1SC7G08---------';
 	echo '--------------------------';             
 	echo '--Installed Successfully--';
