@@ -1,17 +1,23 @@
-File structure
+Package structure
+
 debian
 -control (done)
 -copyright (done)
 -changelog (done)
--rules
+-rules (done)
 -dirs
 -preinst/postinst (done)
 -prerm/postrm (done)
 
+etc/apache2/sites-available/index
 
+usr/share/index
+- index.php
+- rss_php.php
+- feeds.conf
 
 -----------------------------
-to install
+what to pre-install
 
 sudo apt-get install dh-make
 sudo apt-get install dpkg
@@ -21,33 +27,30 @@ sudo apt-get git
 
 steps.
 
-1. create a launcher
-2. place it in the folder (must be called name_version) i.e index_1.0
-3. place icon in that folder
-4. create a .tar.gz of that folder and place it inside that folder
-5. enter the index_1.0 folder with terminal
-6. run command: dh_make -e ste89lios@gmail.com -c gpl -f index_1.0.tar.gz
-7. modify the required files in the debian folder (index_1.0/debian)
-	*follow structure above!
-8. enter index_1.0 folder with terminal
-9. run command: fakeroot dpkg-buildpackage -F 
-10. test the deb file using lentian with command: lentian file.deb
-
-
-
+1.create a folder with a name "package-version.num" i.e cw1sc7g08-1.0
+2.create a directory where the files are stored i.e usr/share/cw1sc7g08
+3.when all files in place run dh_make command: 
+dh_make -e ste89lios@gmail.com -c gpl -f cw1sc7g08_1.0.tar.gz
+4.enter the package directory and modify the required files in the generated 
+debian folder (cw1sc7g08_1.0/debian)
+5.Modify control, copyright, changelog, postinst, prerm, md5sums and create cw1sc7g08.install
+6.Once all the files are correctly configured enter the following command:
+fakeroot dpkg-buildpackage -F 
+7.test the deb file using lentian with command: lentian file.deb
 
 -------------------------
-deb structure:
--debian-binary
--control.tar.gz
-	-control
-	-md5sums
-	-postinst
-	-prerm
--data.tar.gz
-	contains files that will be installed with their destination paths
--------------------------
+Insalling the package
 
+Either double click on the deb file or run command from terminal:
+sudo dpkg -i cw1sc7g08_1.0-1_amd64.deb
+
+To remove the file either using Synaptic package manager or run the following command from terminal:
+sudo dpkg --purge cw1sc7g08
+
+---
+Current Dependencies:
+- libapache2-mod-php5
+- php5-cli
 
 command: dpkg-deb --build debian
 
@@ -67,6 +70,8 @@ git commands
 	git add foldername
 	git commit -m "message goes here" filename   (makes change on ur computer)
 	git push (makes change on the server)
-
+	git log
 ----
-the conffiles looks for index.php inside the .deb file (so find out how to put it in the deb file)...
+
+Because we are not compiling and configuring a complex system, we are just copying files from one location to another, we are using packagename/debian/package.install to define where the contents of the debian package should be copied to the system. 
+
