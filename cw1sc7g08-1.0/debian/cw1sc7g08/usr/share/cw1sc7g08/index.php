@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 /*
 	6005_cw1_2012 - the Simple PHP RSS Reader for INFO6005

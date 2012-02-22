@@ -5,10 +5,11 @@ Description: Upstream changes introduced in version 1.0-1
  .
  cw1sc7g08 (1.0-1) unstable; urgency=low
  .
-   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+   * Initial release (Closes: #777)  <nnnn is the bug number of your ITP>
  .
  The person named in the Author field signed this changelog entry.
 Author: Stelios Christoforou <sc7g08@ecs.soton.ac.uk>
+Bug-Debian: http://bugs.debian.org/777
 
 ---
 The information above should follow the Patch Tagging Guidelines, please
@@ -23,6 +24,13 @@ Forwarded: <no|not-needed|url proving that it has been forwarded>
 Reviewed-By: <name and email of someone who approved the patch>
 Last-Update: <YYYY-MM-DD>
 
+--- cw1sc7g08-1.0.orig/usr/share/cw1sc7g08/index.php
++++ cw1sc7g08-1.0/usr/share/cw1sc7g08/index.php
+@@ -1,3 +1,4 @@
++#!/usr/bin/php
+ <?php
+ /*
+ 	6005_cw1_2012 - the Simple PHP RSS Reader for INFO6005
 --- /dev/null
 +++ cw1sc7g08-1.0/etc/apache2/sites-available/cw1sc7g08
 @@ -0,0 +1 @@
