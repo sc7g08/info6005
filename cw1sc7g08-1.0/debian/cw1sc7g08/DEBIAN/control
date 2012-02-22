@@ -1,0 +1,12 @@
+Package: cw1sc7g08
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Stelios Christoforou <sc7g08@ecs.soton.ac.uk>
+Installed-Size: 88
+Depends: libapache2-mod-php5, php5-cli
+Section: net
+Priority: extra
+Homepage: https://github.com/sc7g08/info6005
+Description: PHP RSS READER INFO6005
+ Web application, simple rss reader
+ written in PHP

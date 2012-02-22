@@ -1,0 +1,16 @@
+Source: cw1sc7g08
+Section: net
+Priority: extra
+Maintainer: Stelios Christoforou <sc7g08@ecs.soton.ac.uk>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Homepage: https://github.com/sc7g08/info6005
+#Vcs-Git: git://git.debian.org/collab-maint/index.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/index.git;a=summary
+
+Package: cw1sc7g08
+Architecture: any
+Depends: libapache2-mod-php5, php5-cli
+Description: PHP RSS READER INFO6005
+ Web application, simple rss reader
+ written in PHP
