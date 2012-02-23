@@ -1,3 +1,21 @@
+commit 460f232cc8dc383ce09a3448d4dfd879a20e8df3
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 17:15:38 2012 +0000
+
+    this is the final deb file after remembering to change the md5sums file..
+
+commit 28606bebbe87d3fcc7627083c9f443f81d3ca09f
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 17:14:15 2012 +0000
+
+    entered final md5 hash values of source files
+
+commit 5dd5c31937126b9b06543f466fe47e4617752f59
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 17:11:09 2012 +0000
+
+    updated logs file
+
 commit 0d311111bd28558b8c95605da8da27c425debe98
 Author: sc7g08 <ste89lios@gmail.com>
 Date:   Thu Feb 23 17:08:02 2012 +0000
