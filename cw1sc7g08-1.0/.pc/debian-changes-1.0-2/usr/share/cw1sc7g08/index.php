@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 /*
 	6005_cw1_2012 - the Simple PHP RSS Reader for INFO6005
@@ -91,26 +92,23 @@
 			$rss->load($url);
 		
 			$items = $rss->getItems();
-			echo "<br/><br/>";
+		
 			echo "Items From $url \n";
 			echo "===========";
 			for ($j=0;$j<strlen($url);$j++) {
 				echo "=";
-							
 			}
-			
 			echo "\n\n";
 			
 			if (!$items) {
 				echo "FAILED TO LOAD ANY ITEMS\n\n";
 			} else {
-				
-				echo "<br/>";	
+					
 				for ($k=0;$k<$count;$k++) {
 				
 					if ($items[$k]) {
 	
-						echo " * " . $items[$k]["title"] . "<br/>";
+						echo " * " . $items[$k]["title"] . "\n";
 
 					}			
 		
