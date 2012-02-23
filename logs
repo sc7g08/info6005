@@ -1,0 +1,125 @@
+commit 83fe5dc58bf671c75f650c908725de08759ed86f
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 13:06:10 2012 +0000
+
+    renamed readme.txt to READNE
+
+commit 7cd470fd5d98c4e952e3d10726129d4be961315b
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 13:04:13 2012 +0000
+
+    readme removed
+
+commit e547ed175c37b6411e2128004f25c69760da6ae6
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 13:01:50 2012 +0000
+
+    updated readme file
+
+commit 546e3e3fb7778a73b0988626f19cedc9c56b0b86
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 10:49:30 2012 +0000
+
+    added downloads which contains the source files
+
+commit 29f92e81b923335938c86a2d0e48f44fa0576a73
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 10:45:59 2012 +0000
+
+    changed changelog and made index.php executable
+
+commit c563be2f44f171f6c392a4866271ef422bf9b26e
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 10:44:27 2012 +0000
+
+    fixed all errors and warnings of deb
+
+commit 74a80f7b85fd121058d9192bfd577874c0607743
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 03:35:43 2012 +0000
+
+    deb file without any errors from lintian
+
+commit 4fb34c81152c0ed29bce2bfb8ed554440d60b761
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 03:34:15 2012 +0000
+
+    removed all errors from lintian
+
+commit dfa36c3a5795f1d05ad4da09d70508cac1b489e7
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 03:26:47 2012 +0000
+
+    new deb file created based on some changes
+
+commit dd1e27c884d3ed5a906d9ae06970319541fdc824
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 03:25:23 2012 +0000
+
+    modified postinst and prerm to use invoke
+
+commit 9234b27f5e23f0b40bcde8c000a12df1dde83968
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 03:13:47 2012 +0000
+
+    updated readme file
+
+commit 3d2e205478bc6912e9ca4c96c5480a120469c8c8
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 02:59:11 2012 +0000
+
+    readme modified
+
+commit d53ddb0af138dbb5e4e716b8d5e84d3aaf255dcc
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 02:52:36 2012 +0000
+
+    tar file of original deb contents
+
+commit 8ae9e0edf8d8e5aa87e6c19df60b4b9b7dab17f4
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 02:51:13 2012 +0000
+
+    final deb version
+
+commit ab3f384f8f4a6a9ac408bb8c42df00433278d5a9
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Wed Feb 22 02:49:55 2012 +0000
+
+    cw1 mail deb conf files
+
+commit 446b9256441332a95339199b25315092bf5c3a24
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Tue Feb 21 18:17:07 2012 +0000
+
+    second package
+
+commit 63d6c2113799ad8e9d7e8a413333fffc8e2e1a1d
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Mon Feb 20 17:31:10 2012 +0000
+
+    added readme file
+
+commit 9ffc0e9a72bef1675ac744dfdd1661fb6ed7d70d
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Mon Feb 20 17:12:54 2012 +0000
+
+    added required files
+
+commit f1e74f4a4fd852b6914776650c64ec6760cb9f7e
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Mon Feb 20 17:11:37 2012 +0000
+
+    deb file
+
+commit 7fd2b112614c3612c3796392e9f176113c18a885
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Mon Feb 20 15:49:33 2012 +0000
+
+    first commit
+
+commit fe2fc59cd76d0ce4978e9094401509ea80da14c3
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Mon Feb 20 15:47:41 2012 +0000
+
+    first commit
