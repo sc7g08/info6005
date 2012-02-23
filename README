@@ -2,7 +2,7 @@
 Insalling the package
 
 Either double click on the deb file or run command from terminal:
-sudo dpkg -i cw1sc7g08_1.0-1_amd64.deb
+sudo dpkg -i cw1sc7g08_1.0-2_amd64.deb
 
 To remove the file either using Synaptic package manager or run the following command from terminal:
 sudo dpkg --purge cw1sc7g08
@@ -20,7 +20,7 @@ what to pre-install
 sudo apt-get install dh-make
 sudo apt-get install dpkg
 sudo apt-get install lintian
-sudo apt-get git
+sudo apt-get install git
 
 
 -----------------
@@ -60,12 +60,13 @@ We will need to build a debian package that will eventualy install the 3 files o
 
 1.create a folder with a name "package-version.num" i.e cw1sc7g08-1.0
 2.create a directory where the files are stored i.e usr/share/cw1sc7g08
-3.when all files in place run dh_make command: 
+3.when all the files are in place create a tar.gz of the folder
+4.run dh_make command: 
 dh_make -e ste89lios@gmail.com -c gpl -f cw1sc7g08_1.0.tar.gz
 4.enter the package directory and modify the required files in the generated 
 debian folder (cw1sc7g08_1.0/debian)
-5.Modify control, copyright, changelog, postinst, prerm, md5sums and create cw1sc7g08.install
-6.Because we are not compiling and configuring a complex system, we are just copying files from one location to another, we are using cw1sc7g08/debian/cw1sc7g08.install to define where the contents of the debian package should be copied to the system. 
+5.Modify control, copyright, changelog, postinst, prerm, md5sums and create a file called cw1sc7g08.install
+6.Because we are not compiling and configuring a complex system, we are just copying files from one location to another, we are using cw1sc7g08/debian/cw1sc7g08.install to define where the contents of the debian package should be copied to the system (etc/share).
 7.Once all the files are correctly configured enter the following command:
 fakeroot dpkg-buildpackage -F 
 8.test the deb file using lintian with command: lentian file.deb
@@ -81,6 +82,10 @@ Package Dependencies:
 Other notes:
 
 When reinstalling the package it will check if it exists and will throw exit status 1 and will tell the user the site already exists.
+
+Git was used for version control. A log file of the commits has been also included in the debian.
+
+Two versions where made, 1.0-1 and 1.0-2. The second one is the final version and has all the bugs fixed
 
 -------------------------
 Git repository
