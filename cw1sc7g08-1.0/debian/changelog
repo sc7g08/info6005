@@ -1,3 +1,9 @@
+cw1sc7g08 (1.0-2) maverick; urgency=low
+
+  * Second release (Closes: #778)
+
+ -- User <user@ecs.soton.ac.uk>  Thu, 23 Feb 2012 16:19:08 +0000
+
 cw1sc7g08 (1.0-1) unstable; urgency=low
 
   * Initial release (Closes: #777)  <nnnn is the bug number of your ITP>
