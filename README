@@ -77,6 +77,10 @@ Package Dependencies:
 - libapache2-mod-php5
 - php5-cli
 
+-------------------------
+Other notes:
+
+When reinstalling the package it will check if it exists and will throw exit status 1 and will tell the user the site already exists.
 
 -------------------------
 Git repository
