@@ -1,3 +1,57 @@
+commit 0d311111bd28558b8c95605da8da27c425debe98
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 17:08:02 2012 +0000
+
+    modified README file
+
+commit c75ca0582ee10f5be5b5f6821fce3574893a132f
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 17:05:31 2012 +0000
+
+    added final source files into download folder
+
+commit 459d71ac49b7b5a787f9a5bf73683d0a59a22323
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 17:03:09 2012 +0000
+
+    the final final version of deb package
+
+commit 81495fe1f3ef6413392d48722d45af7d12eba8bc
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 17:02:27 2012 +0000
+
+    commited source files changed
+
+commit 5dd5ce83f0a0208bf0894cf017a588bec7edf3e3
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 16:59:49 2012 +0000
+
+    modified permissions plus made changes to php file for presenting the data much nicer.. The file doesnt need to be executable as its read from the browser, hence read only is sufficient
+
+commit d7d68a7b6d131d13d835be9dcfcb5c7be4b5cb13
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 16:31:17 2012 +0000
+
+    final deb file
+
+commit c1ebdf561f367a23125cce75509c4447e515fecd
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 16:30:39 2012 +0000
+
+    updated the changelog to create a final version of deb file 1.0-2
+
+commit e826173a93198abd65ab7c8454f7b0f4269d8f55
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 15:31:00 2012 +0000
+
+    edited the README file
+
+commit 0263ca1a53bba345d0c61fd4b3ffe73f61c82144
+Author: sc7g08 <ste89lios@gmail.com>
+Date:   Thu Feb 23 15:28:53 2012 +0000
+
+    added log file of all commits
+
 commit 83fe5dc58bf671c75f650c908725de08759ed86f
 Author: sc7g08 <ste89lios@gmail.com>
 Date:   Thu Feb 23 13:06:10 2012 +0000
