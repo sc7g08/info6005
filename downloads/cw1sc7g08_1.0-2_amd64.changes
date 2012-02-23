@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 23 Feb 2012 16:19:08 +0000
+Source: cw1sc7g08
+Binary: cw1sc7g08
+Architecture: source amd64
+Version: 1.0-2
+Distribution: maverick
+Urgency: low
+Maintainer: Stelios Christoforou <sc7g08@ecs.soton.ac.uk>
+Changed-By: User <user@ecs.soton.ac.uk>
+Description: 
+ cw1sc7g08  - PHP RSS READER INFO6005
+Closes: 778
+Changes: 
+ cw1sc7g08 (1.0-2) maverick; urgency=low
+ .
+   * Second release (Closes: #778)
+Checksums-Sha1: 
+ 5e42485ed83a92d81fc677f7697549ec4534994d 781 cw1sc7g08_1.0-2.dsc
+ 4c9c8ac30ab3ed8fe49689870b942cd130f7f429 3699 cw1sc7g08_1.0-2.debian.tar.gz
+ 10c34b5627cd238c6df52b7a63876281d1128572 6402 cw1sc7g08_1.0-2_amd64.deb
+Checksums-Sha256: 
+ 07e33939c3379169346706bf28b656ff79385b5daaddbaa3c13686bdce88e16f 781 cw1sc7g08_1.0-2.dsc
+ 1c82d4794bb74a55c61ee77bb78bfbb90cd8871f33af82cc26a5cbfb58919586 3699 cw1sc7g08_1.0-2.debian.tar.gz
+ cf85551dc621aab0baac185a3e8c6b6f3f6bcae138e94c74e4e546ea0eeceb59 6402 cw1sc7g08_1.0-2_amd64.deb
+Files: 
+ 55e2e604edc906d98d555c7e3b7eae7b 781 net extra cw1sc7g08_1.0-2.dsc
+ 2cff908b128f54f846c083d19c757d74 3699 net extra cw1sc7g08_1.0-2.debian.tar.gz
+ 38353e895f2ab4d471402c43f205560f 6402 net extra cw1sc7g08_1.0-2_amd64.deb
