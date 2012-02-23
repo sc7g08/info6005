@@ -1,6 +1,39 @@
+-------------------------
+Insalling the package
+
+Either double click on the deb file or run command from terminal:
+sudo dpkg -i cw1sc7g08_1.0-1_amd64.deb
+
+To remove the file either using Synaptic package manager or run the following command from terminal:
+sudo dpkg --purge cw1sc7g08
+-------------------------
+
+
+------------------------
+| CREATING THE PACKAGE |
+------------------------
+
+
+-----------------------------
+what to pre-install
+
+sudo apt-get install dh-make
+sudo apt-get install dpkg
+sudo apt-get install lintian
+sudo apt-get git
+
+
+-----------------
 Package structure
 
-debian
+deb
+ /debian
+ /etc/apache2/sites-available/cw1sc7g08
+ /usr/share/cw1sc7g08	
+
+
+Contents:
+/debian
 -control 
 -copyright 
 -changelog 
@@ -12,23 +45,16 @@ debian
 -compat
 -cw1sc7g08.install
 
-etc/apache2/sites-available/cw1sc7g08
+/etc/apache2/sites-available
+-cw1sc7g08 
 
-usr/share/cw1sc7g08
+/usr/share/cw1sc7g08
 - index.php
 - rss_php.php
 - feeds.conf
-
------------------------------
-what to pre-install
-
-sudo apt-get install dh-make
-sudo apt-get install dpkg
-sudo apt-get install lintian
-sudo apt-get git
 -----------------------------
 
-steps.
+Detailed steps.
 
 We will need to build a debian package that will eventualy install the 3 files on the system under usr/share/cw1sc7g08 and will run by going to localhost/cw1sc7g08 from the users browser. This will eventualy run index.php
 
@@ -43,29 +69,24 @@ debian folder (cw1sc7g08_1.0/debian)
 7.Once all the files are correctly configured enter the following command:
 fakeroot dpkg-buildpackage -F 
 8.test the deb file using lintian with command: lentian file.deb
+no errors or warnings should be output
 
--------------------------
-Insalling the package
-
-Either double click on the deb file or run command from terminal:
-sudo dpkg -i cw1sc7g08_1.0-1_amd64.deb
-
-To remove the file either using Synaptic package manager or run the following command from terminal:
-sudo dpkg --purge cw1sc7g08
 
 -------------------------
 Package Dependencies:
 - libapache2-mod-php5
 - php5-cli
 
-----
+
+-------------------------
 Git repository
 https://github.com/sc7g08/info6005
-----
+
+-------------------------
 git commands
 	git add foldername
 	git commit -m "message goes here" filename   (makes change on ur computer)
 	git push (makes change on the server)
 	git log
-----
+
 
